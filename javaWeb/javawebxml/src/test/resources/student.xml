@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<students id="1000002">
+    <student idcard="500107">
+        <id>1001</id>
+        <name>mj</name>
+    </student>
+</students>
