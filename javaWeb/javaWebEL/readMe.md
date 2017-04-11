@@ -10,6 +10,7 @@ EL  支持的范围
    list-----> list[index] |list.get(index)
    map---->map.key | map[key] :注意key 最好不要为数字
 5. 方法的调用操作
+   正常调用方法进行操作:xxx.methodName();
 
 
 注意事项:

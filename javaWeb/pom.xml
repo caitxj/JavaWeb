@@ -13,7 +13,27 @@
     <!--项目模块-->
     <modules>
         <module>javawebxml</module>
+        <module>javaWebEL</module>
+        <module>Javawebtag</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
+        </dependency>
+    </dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>servlet-api</artifactId>
+                <version>2.5</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
 
 
 </project>
