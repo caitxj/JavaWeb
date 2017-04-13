@@ -37,11 +37,7 @@ public class JdomManager {
           for(Element e:els){
             System.out.println(e.getText());
           }
-
         }
-
-
-
     }
 
     public static  void addContent(String op) throws JDOMException, IOException {

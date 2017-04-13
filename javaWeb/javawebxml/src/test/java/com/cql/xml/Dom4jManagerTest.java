@@ -23,4 +23,9 @@ public class Dom4jManagerTest {
 //        Dom4jManager.cud("delete");
 //        Dom4jManager.cud("update");
     }
+    @Test
+    public  void urlTest(){
+        System.out.println(Dom4jManagerTest.class.getResource("../").getPath());
+        System.out.println(Dom4jManagerTest.class.getResource("/").getPath());
+    }
 }
